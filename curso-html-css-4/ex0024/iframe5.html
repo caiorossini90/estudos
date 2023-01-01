@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vh;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FAÇA SUA ESCOLHA</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, doloribus! Non architecto, dolorum fugit voluptate iure ipsa. Assumenda recusandae perspiciatis, dolorum voluptatibus nisi, nemo eligendi modi tempora repellendus mollitia blanditiis.</p>
+    <ul>
+        <li><a href="pg1.html" target="frame">Página 1</a></li>
+        <li><a href="pg2.html" target="frame">Página 2</a></li>
+        <li><a href="pg3.html" target="frame">Página 3</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit assumenda perspiciatis laborum eaque maxime quae velit, voluptatibus amet temporibus, nihil tempora corporis similique? Debitis, ab non dolores error delectus doloribus?</p>
+
+    <iframe srcdoc="<h1> Olá eu sou um iframe. <br><br> Escolha uma das opções acima.</h1>" id="tela" name="frame">
+        <p>Seu navegador não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis accusamus voluptate nobis, inventore nulla corporis quas. Rem impedit nulla ratione debitis alias. Aspernatur sit nulla labore mollitia iure sapiente quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias esse reiciendis officia sit sint nulla enim ipsa, distinctio culpa optio laudantium eos quis! A ducimus nulla vitae placeat mollitia natus.</p>
+</body>
+</html>
